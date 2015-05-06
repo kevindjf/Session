@@ -14,14 +14,40 @@ compile ('com.github.kevindjf:session:1.0.0@aar'){
 }
 ```
 
-#Usage
+#Simple usage
+
+##Create a Session
 ```java
  Session<Book> bookSession = new Session<>(this,Book.class);
+```
+
+Will create or retrieve the last saved Book session
+
+##Add Objects
+```java
  Book book = new Book();
  book.setName("Harry Potter");
  book.setNumber(10);
  bookSession.add(book);
 ```
+
+##Retrieve saved objects
+This book will be saved, and when you use bookSession.getAll(), even after restarting the activity
+```java
+bookSession.getAll();
+//will return [Book{"Harry Potter",10}]
+```
+
+##Clear the session
+To remove all session's objects
+```java
+bookSession.clear();
+```
+
+
+#Capabilities
+
+
 Community
 --------
 
