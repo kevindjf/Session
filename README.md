@@ -1,7 +1,7 @@
 Session
 =======
 
-Session is a DAO which use Shared Preference to save data
+Session is a easy to use Persistance Library which use SharedPreference to save datas
 
 Community
 --------
@@ -17,6 +17,20 @@ Credits
 -------
 
 Author: Kévin De Jesus Ferreira
+
+<a href="https://plus.google.com/+DeJesusFerreiraKévin">
+  <img alt="Follow me on Google+"
+       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
+</a>
+<a href="https://twitter.com/DeJesusFKvin">
+  <img alt="Follow me on Twitter"
+       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/twitter.png" />
+</a>
+<a href="https://www.linkedin.com/profile/view?id=297859826">
+  <img alt="Follow me on LinkedIn"
+       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/linkedin.png" />
+</a>
+
 
 License
 --------
