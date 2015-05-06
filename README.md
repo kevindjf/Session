@@ -1,7 +1,8 @@
 Session
 =======
 
-https://travis-ci.org/kevindjf/Session.svg
+[![Build Status](https://travis-ci.org/kevindjf/Session.svg)](https://travis-ci.org/kevindjf/Session)
+
 
 Session is a easy to use Persistance Library which use SharedPreference to save datas
 
