@@ -1,6 +1,8 @@
 Session
 =======
 
+https://travis-ci.org/kevindjf/Session.svg
+
 Session is a easy to use Persistance Library which use SharedPreference to save datas
 
 Community
