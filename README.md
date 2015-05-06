@@ -25,17 +25,15 @@ Will create or retrieve the last saved Book session
 
 ##Add Objects
 ```java
- Book book = new Book();
- book.setName("Harry Potter");
- book.setNumber(10);
- bookSession.add(book);
+ bookSession.add(new Book("Harry Potter",10));
+ bookSession.add(new Book("Hunger Games ",5));
 ```
 
 ##Retrieve saved objects
 This book will be saved, and when you use bookSession.getAll(), even after restarting the activity
 ```java
 bookSession.getAll();
-//will return [Book{"Harry Potter",10}]
+//will return [Book{"Harry Potter",10},Book{"Hunger Games",5}]
 ```
 
 ##Clear the session
