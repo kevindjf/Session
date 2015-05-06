@@ -25,8 +25,8 @@ Will create or retrieve the last saved Book session
 
 ##Add Objects
 ```java
- bookSession.add(new Book("Harry Potter",10));
- bookSession.add(new Book("Hunger Games ",5));
+ bookSession.add(new Book("Harry Potter",10))
+            .add(new Book("Hunger Games ",5));
 ```
 
 ##Retrieve saved objects

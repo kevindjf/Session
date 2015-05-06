@@ -8,6 +8,11 @@ public class Book {
     String name;
     int number;
 
+    public Book(String name, int number) {
+        this.name = name;
+        this.number = number;
+    }
+
     public String getName() {
         return name;
     }

@@ -38,9 +38,9 @@ public class Session<T> {
                 .apply();
     }
 
-    public void add(T object) {
+    public Session<T> add(T object) {
         if (object == null)
-            return;
+            return this;
 
         List<T> objects = this.getAll();
 
@@ -50,11 +50,13 @@ public class Session<T> {
         objects.add(object);
 
         this.save(objects);
+
+        return this;
     }
 
-    public void add(int index,T object) {
+    public Session<T> add(int index,T object) {
         if (object == null)
-            return;
+            return this;
 
         List<T> objects = getAll();
 
@@ -64,17 +66,21 @@ public class Session<T> {
         objects.add(index, object);
 
         this.save(objects);
+
+        return this;
     }
 
-    public void addAll(ArrayList<T> objects) {
+    public Session<T> addAll(ArrayList<T> objects) {
         if (objects == null || objects.size() == 0)
-            return;
+            return this;
 
         List<T> objectsBDD = getAll();
 
         objectsBDD.addAll(objects);
 
         this.save(objectsBDD);
+
+        return this;
     }
 
     public List<T> getAll() {
@@ -94,12 +100,13 @@ public class Session<T> {
         return objects.get(0);
     }
 
-    public void clear() {
+    public Session<T> clear() {
         save(new ArrayList<T>());
+        return this;
     }
 
 
-    public void update(T o){
+    public Session<T> update(T o){
         List<T> objects = getAll();
 
         for(int i = 0; i < objects.size();i++){
@@ -108,14 +115,16 @@ public class Session<T> {
                 add(i,o);
             }
         }
+
+        return this;
     }
 
-    public void update (T o,String attributeName, Object value){
+    public Session<T> update (T o,String attributeName, Object value){
 
         List<T> objects = getAll();
 
         if (objects == null || objects.size() == 0)
-            return;
+            return this;
 
         Field field = null;
         try {
@@ -135,7 +144,7 @@ public class Session<T> {
                     if ((value).equals(objectReturn)){
                         removeAtIndex(i);
                         add(i,o);
-                        return;
+                        return this;
                     }
 
 
@@ -147,6 +156,8 @@ public class Session<T> {
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         }
+
+        return this;
     }
 
     public T getByAttribute(String attributeName, Object value) {

@@ -38,10 +38,8 @@ public class MainActivity extends ActionBarActivity {
 
         bookSession.clear();
 
-        Book book = new Book();
-        book.setName("Harry Potter");
-        book.setNumber(10);
-        bookSession.add(book);
+        bookSession.add(new Book("Harry Potter",10));
+        bookSession.add(new Book("Hunger Games ",5));
 
         name_book = (TextView) findViewById(R.id.name_book);
         number_book = (TextView) findViewById(R.id.number_book);
