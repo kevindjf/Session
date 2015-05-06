@@ -30,7 +30,7 @@ Will create or retrieve the last saved Book session
 ```
 
 ##Retrieve saved objects
-This book will be saved, and when you use bookSession.getAll(), even after restarting the activity
+This book will be saved, and when you use bookSession.getAll(), **even after restarting the activity**
 ```java
 bookSession.getAll();
 //will return [Book{"Harry Potter",10},Book{"Hunger Games",5}]
