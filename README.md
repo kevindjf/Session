@@ -17,13 +17,10 @@ compile ('com.github.kevindjf:session:1.0.0@aar'){
 #Usage
 ```java
  Session<Book> bookSession = new Session<>(this,Book.class);
-
-        bookSession.clear();
-
-        Book book = new Book();
-        book.setName("Harry Potter");
-        book.setNumber(10);
-        bookSession.add(book);
+ Book book = new Book();
+ book.setName("Harry Potter");
+ book.setNumber(10);
+ bookSession.add(book);
 ```
 Community
 --------
