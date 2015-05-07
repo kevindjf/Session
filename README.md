@@ -102,7 +102,7 @@ public class CustomBookSession extends Session<Book> {
 }
 ```
 
-Use
+Usage
 ```java
 //will use sharedpreferences key "Book"
 CustomBookSession session = new CustomBookSession(getApplicationContext());
