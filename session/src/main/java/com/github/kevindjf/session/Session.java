@@ -20,7 +20,7 @@ public class Session<T> {
 
     protected final SharedPreferences sharedPreferences;
     protected final Class<T> type;
-    protected final Gson gson = new Gson(); //improves performances to have only one Gson
+    protected static final Gson gson = new Gson(); //improves performances to have only one Gson
 
     public Session(Context context, Class<T> type) {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);

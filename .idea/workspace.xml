@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dd8b40-dea0-4732-82c0-b79c45943285" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" afterPath="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Session.iws" />
@@ -39,18 +39,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Session.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="222" column="40" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.24556616">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <element signature="e#6502#6503#0" expanded="true" />
-                <element signature="e#6550#6551#0" expanded="true" />
-                <element signature="e#6586#6587#0" expanded="true" />
-                <element signature="e#6629#6630#0" expanded="true" />
-                <element signature="e#7282#7283#0" expanded="true" />
-                <element signature="e#7343#7344#0" expanded="true" />
+                <element signature="e#6509#6510#0" expanded="true" />
+                <element signature="e#6557#6558#0" expanded="true" />
+                <element signature="e#6593#6594#0" expanded="true" />
+                <element signature="e#6636#6637#0" expanded="true" />
+                <element signature="e#7289#7290#0" expanded="true" />
+                <element signature="e#7350#7351#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,13 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8082386">
+            <state vertical-scroll-proportion="-19.62069">
               <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
               <folding />
             </state>
@@ -1347,8 +1347,8 @@
         <option value="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/GenericClass.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/MainActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/session/CustomBookSession.java" />
-        <option value="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" />
       </list>
     </option>
   </component>
@@ -1915,7 +1915,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431005046225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated README">
+      <created>1431005074874</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1431005074874</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1979,12 +1985,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
-            <element signature="e#6502#6503#0" expanded="true" />
-            <element signature="e#6550#6551#0" expanded="true" />
-            <element signature="e#6586#6587#0" expanded="true" />
-            <element signature="e#6629#6630#0" expanded="true" />
-            <element signature="e#7282#7283#0" expanded="true" />
-            <element signature="e#7343#7344#0" expanded="true" />
+            <element signature="e#6509#6510#0" expanded="true" />
+            <element signature="e#6557#6558#0" expanded="true" />
+            <element signature="e#6593#6594#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#7289#7290#0" expanded="true" />
+            <element signature="e#7350#7351#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2012,12 +2018,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6502#6503#0" expanded="true" />
-            <element signature="e#6550#6551#0" expanded="true" />
-            <element signature="e#6586#6587#0" expanded="true" />
-            <element signature="e#6629#6630#0" expanded="true" />
-            <element signature="e#7282#7283#0" expanded="true" />
-            <element signature="e#7343#7344#0" expanded="true" />
+            <element signature="e#6509#6510#0" expanded="true" />
+            <element signature="e#6557#6558#0" expanded="true" />
+            <element signature="e#6593#6594#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#7289#7290#0" expanded="true" />
+            <element signature="e#7350#7351#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2344,21 +2350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="222" column="40" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
-          <folding>
-            <element signature="e#6502#6503#0" expanded="true" />
-            <element signature="e#6550#6551#0" expanded="true" />
-            <element signature="e#6586#6587#0" expanded="true" />
-            <element signature="e#6629#6630#0" expanded="true" />
-            <element signature="e#7282#7283#0" expanded="true" />
-            <element signature="e#7343#7344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2372,9 +2363,24 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8082386">
+        <state vertical-scroll-proportion="-19.62069">
           <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24556616">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#6509#6510#0" expanded="true" />
+            <element signature="e#6557#6558#0" expanded="true" />
+            <element signature="e#6593#6594#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#7289#7290#0" expanded="true" />
+            <element signature="e#7350#7351#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
