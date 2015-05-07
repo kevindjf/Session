@@ -13,11 +13,8 @@ import java.util.List;
  */
 public class CustomBookSession extends Session<Book> {
 
-    private static final String NAME = "FAVORITES";
-
-    //force set a different name that Session<Book>
     public CustomBookSession(Context context, Class<Book> type) {
-        super(context, type, NAME);
+        super(context, type);
     }
 
     public CustomBookSession(Context context, Class<Book> type, String nomSession) {
