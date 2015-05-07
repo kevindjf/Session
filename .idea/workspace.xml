@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dd8b40-dea0-4732-82c0-b79c45943285" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/session/CustomBookSession.java" afterPath="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/session/CustomBookSession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" afterPath="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Session.iws" />
@@ -76,8 +74,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0213069">
-              <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.19176136">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -1349,8 +1347,8 @@
         <option value="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/GenericClass.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/MainActivity.java" />
         <option value="$PROJECT_DIR$/sample/src/main/java/com/github/kevindjf/session/sample/session/CustomBookSession.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/session/src/main/java/com/github/kevindjf/session/Session.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1899,7 +1897,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431004562639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated README">
+      <created>1431004900333</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1431004900333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2356,8 +2360,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0213069">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.19176136">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
