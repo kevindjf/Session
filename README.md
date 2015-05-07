@@ -7,6 +7,7 @@ Session
 Session is a easy to use Persistance Library which save datas into SharedPreference.
 
 **Session might not be used to save a huge models list, please use it only if you have to keep a small list**
+
 **for example : save local favorites**
 
 #Download
