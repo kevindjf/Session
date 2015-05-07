@@ -13,12 +13,12 @@ import java.util.List;
  */
 public class CustomBookSession extends Session<Book> {
 
-    public CustomBookSession(Context context, Class<Book> type) {
-        super(context, type);
+    public CustomBookSession(Context context) {
+        super(context, Book.class);
     }
 
-    public CustomBookSession(Context context, Class<Book> type, String nomSession) {
-        super(context, type, nomSession);
+    public CustomBookSession(Context context, String nomSession) {
+        super(context,  Book.class, nomSession);
     }
 
     //and add your custom methods

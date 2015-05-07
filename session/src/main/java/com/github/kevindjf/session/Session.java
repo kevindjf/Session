@@ -183,16 +183,12 @@ public class Session<T> {
 
         Field field = null;
         try {
-
             field = type.getDeclaredField(attributeName);
-
             field.setAccessible(true);
-
 
             Object objectReturn;
 
             for (T variable : objects) {
-
                 try {
                     objectReturn = field.get(variable);
 
@@ -201,13 +197,43 @@ public class Session<T> {
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 }
-
             }
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         }
 
         return null;
+    }
+
+    public List<T> getAllByAttribute(String attributeName, Object value) {
+
+        List<T> objects = getAll();
+
+        if (objects == null || objects.size() == 0)
+            return null;
+
+        List<T> objectsReturn = new ArrayList<>();
+
+        Field field = null;
+        try {
+            field = type.getDeclaredField(attributeName);
+            field.setAccessible(true);
+
+            Object objectReturn;
+            for (T variable : objects) {
+                try {
+                    objectReturn = field.get(variable);
+                    if ((value).equals(objectReturn))
+                        objectsReturn.add(variable);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
+        return objectsReturn;
     }
 
 

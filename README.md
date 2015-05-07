@@ -75,12 +75,12 @@ You can extend Session<> to add your own methods
 ```java
 public class CustomBookSession extends Session<Book> {
 
-    public CustomBookSession(Context context, Class<Book> type) {
-        super(context, type);
+    public CustomBookSession(Context context) {
+        super(context, Book.class);
     }
 
-    public CustomBookSession(Context context, Class<Book> type, String nomSession) {
-        super(context, type, nomSession);
+    public CustomBookSession(Context context, String nomSession) {
+        super(context, Book.class, nomSession);
     }
 
     //and add your custom methods
@@ -96,6 +96,18 @@ public class CustomBookSession extends Session<Book> {
         return returnList;
     }
 }
+```
+
+Use
+```java
+//will use sharedpreferences key "Book"
+CustomBookSession session = new CustomBookSession(getApplicationContext());
+
+//will use sharedpreferences key "favorites"
+CustomBookSession sessionFavorites = new CustomBookSession(getApplicationContext(),"favorites");
+
+session.getBooksLessThan(9);
+//will return [Book{"Hunger Games",5}]
 ```
 
 Community
