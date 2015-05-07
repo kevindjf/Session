@@ -12,6 +12,7 @@ import com.google.gson.Gson;
 import java.lang.reflect.Field;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -77,6 +78,19 @@ public class Session<T> {
         List<T> objectsBDD = getAll();
 
         objectsBDD.addAll(objects);
+
+        this.save(objectsBDD);
+
+        return this;
+    }
+
+    public Session<T> addAll(T[] objects) {
+        if (objects == null || objects.length == 0)
+            return this;
+
+        List<T> objectsBDD = getAll();
+
+        objectsBDD.addAll(Arrays.asList(objects));
 
         this.save(objectsBDD);
 
@@ -254,6 +268,25 @@ public class Session<T> {
         }
 
         return removed;
+    }
+
+    public boolean removeAll(List<T> objects){
+        List<T> objectsSaved = getAll();
+
+        boolean removed = false;
+        for(Object o : objects){
+            removed |= objectsSaved.remove(o);
+        }
+
+        if(removed) {
+            save(objects);
+        }
+
+        return removed;
+    }
+
+    public boolean removeAll(T[] objects){
+        return this.removeAll(Arrays.asList(objects));
     }
 
 

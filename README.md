@@ -37,14 +37,66 @@ bookSession.getAll();
 ```
 
 ##Clear the session
-To remove all session's objects
 ```java
 bookSession.clear();
 ```
 
-
 #Capabilities
 
+##Create multiple sessions
+To remove all session's objects
+```java
+//will use sharedpreferences key "Book"
+Session<Book> bookSession = new Session<>(this,Book.class);
+
+//will use sharedpreferences key "favorites"
+Session<Book> bookSessionFavorites = new Session<>(this,Book.class,"favorites");
+```
+
+##Retrieve object by attribute
+```java
+bookSession.getByAttribute("name","Harry Potter");
+//will return Book{"Harry Potter",10}
+```
+
+##Remove objects
+```java
+bookSession.removeAtIndex(1);
+
+Book bookHarry = bookSession.getByAttribute("name","Harry Potter");
+bookSession.remove(bookHarry);
+
+bookSession.removeAll(bookList);
+```
+
+#Customisation
+
+You can extend Session<> to add your own methods
+```java
+public class CustomBookSession extends Session<Book> {
+
+    public CustomBookSession(Context context, Class<Book> type) {
+        super(context, type);
+    }
+
+    public CustomBookSession(Context context, Class<Book> type, String nomSession) {
+        super(context, type, nomSession);
+    }
+
+    //and add your custom methods
+    public List<Book> getBooksLessThan(int number){
+        List<Book> books = getAll();
+
+        List<Book> returnList = new ArrayList<>();
+        for (Book book : books){
+            if(book.getNumber() < number)
+                returnList.add(book);
+        }
+
+        return returnList;
+    }
+}
+```
 
 Community
 --------

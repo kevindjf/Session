@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.kevindjf.session.Session;
 
@@ -24,7 +25,6 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         init();
-
 
         Book book = bookSession.getByAttribute("name", "Harry Potter");
 
