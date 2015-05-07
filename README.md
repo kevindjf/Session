@@ -61,6 +61,10 @@ Session<Book> bookSessionFavorites = new Session<>(this,Book.class,"favorites");
 ```java
 bookSession.getByAttribute("name","Harry Potter");
 //will return Book{"Harry Potter",10}
+
+//you can also retrieve a list
+bookSession.getAllByAttribute("name","Harry Potter");
+//will return [Book{"Harry Potter",10}]
 ```
 
 ##Remove objects
