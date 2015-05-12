@@ -1,6 +1,7 @@
 Session
 =======
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Session-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1792)
 [![Build Status](https://travis-ci.org/kevindjf/Session.svg)](https://travis-ci.org/kevindjf/Session)
 
 
