@@ -14,7 +14,7 @@ Session is a easy to use Persistance Library which save datas into SharedPrefere
 #Download
 
 ```groovy
-compile ('com.github.kevindjf:session:1.0.0@aar'){
+compile ('com.github.kevindjf:session:1.0.1@aar'){
     transitive = true
 }
 ```
